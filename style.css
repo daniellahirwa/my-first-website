@@ -25,3 +25,27 @@ img {
     max-width: 100%;
     height: auto;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Background image */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px);
+    z-index: -1;
+}
+
+/* Content on top */
+.content {
+    padding: 40px;
+    color: white;
+}
